@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jack Bradly Urcuhuaranga | Portafolio Personal & Cyber Dev</title>
+  <meta name="description" content="Portafolio personal de Jack Bradly Urcuhuaranga - Estudiante de Ingeniería Informática en la PUCP y Desarrollador de Software en PachinkoStudio (Sturoom).">
+  <meta name="keywords" content="Jack Bradly Urcuhuaranga, Jack Bradly, PUCP, PachinkoStudio, Sturoom, Ingenieria Informatica, C, C++, C#, Python, Cyber Security, Desarrollador de Software">
+  <meta name="author" content="Jack Bradly Urcuhuaranga">
+  
+  <!-- Open Graph -->
+  <meta property="og:title" content="Jack Bradly Urcuhuaranga | Portafolio Personal">
+  <meta property="og:description" content="Estudiante de Ingeniería Informática en PUCP y Desarrollador de Software.">
+  <meta property="og:type" content="website">
+
+  <!-- Google Fonts: Montserrat (Headers) & Inter (Body/UI) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&family=Montserrat:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+  
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ==================== 17. NAVBAR ==================== -->
+  <header class="navbar-header" id="navbar">
+    <div class="navbar-container">
+      <a href="#hero" class="navbar-brand" aria-label="Inicio">
+        <span class="brand-code">&lt;</span><span class="brand-title">JACK.DEV</span><span class="brand-code">/&gt;</span>
+        <span class="status-indicator" title="Online"></span>
+      </a>
+
+      <!-- Desktop Navigation Menu -->
+      <nav class="navbar-nav" id="navbar-menu" aria-label="Menú principal">
+        <ul class="nav-links-list">
+          <li><a href="#sobre-mi" class="nav-item">Sobre mí</a></li>
+          <li><a href="#educacion" class="nav-item">Educación</a></li>
+          <li><a href="#tecnologias" class="nav-item">Tecnologías</a></li>
+          <li><a href="#experiencia" class="nav-item">Experiencia</a></li>
+          <li><a href="#skills" class="nav-item">Skills</a></li>
+          <li><a href="#voluntariado" class="nav-item">Voluntariado</a></li>
+          <li><a href="#participaciones" class="nav-item">Participaciones</a></li>
+          <li><a href="#contacto" class="nav-item nav-cta">Contacto</a></li>
+        </ul>
+      </nav>
+
+      <!-- Mobile Hamburger Button -->
+      <button class="mobile-toggle" id="mobile-toggle" aria-label="Abrir menú de navegación" aria-expanded="false">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ==================== 14 & 15. HERO SECTION ==================== -->
+    <section class="hero-section" id="hero">
+      
+      <!-- Technological Dark Background with Overlay & Network SVGs -->
+      <div class="hero-bg-container" aria-hidden="true">
+        
+        <!-- Cyber Network SVG Graphic (#38BDF8 con opacidad 0.7) -->
+        <svg class="hero-network-svg" viewBox="0 0 700 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <!-- Mesh Connecting Lines -->
+          <line x1="80" y1="90" x2="220" y2="60" stroke="#38BDF8" stroke-width="1.5" stroke-opacity="0.7" stroke-dasharray="6 3" />
+          <line x1="220" y1="60" x2="360" y2="150" stroke="#38BDF8" stroke-width="1.5" stroke-opacity="0.7" />
+          <line x1="360" y1="150" x2="520" y2="80" stroke="#38BDF8" stroke-width="1.2" stroke-opacity="0.6" />
+          <line x1="520" y1="80" x2="640" y2="180" stroke="#38BDF8" stroke-width="1.5" stroke-opacity="0.7" />
+          <line x1="80" y1="90" x2="140" y2="280" stroke="#38BDF8" stroke-width="1.2" stroke-opacity="0.6" />
+          <line x1="140" y1="280" x2="280" y2="340" stroke="#38BDF8" stroke-width="1.5" stroke-opacity="0.7" />
+          <line x1="280" y1="340" x2="420" y2="260" stroke="#38BDF8" stroke-width="1.5" stroke-opacity="0.7" />
+          <line x1="360" y1="150" x2="420" y2="260" stroke="#38BDF8" stroke-width="1.5" stroke-opacity="0.7" />
+          <line x1="420" y1="260" x2="580" y2="360" stroke="#38BDF8" stroke-width="1.5" stroke-opacity="0.7" />
+          <line x1="640" y1="180" x2="580" y2="360" stroke="#38BDF8" stroke-width="1.2" stroke-opacity="0.6" />
+          <line x1="220" y1="60" x2="280" y2="340" stroke="#38BDF8" stroke-width="1.0" stroke-opacity="0.4" />
+
+          <!-- Network Nodes (Circles) -->
+          <circle cx="80" cy="90" r="5" fill="#38BDF8" fill-opacity="0.85" />
+          <circle cx="220" cy="60" r="6" fill="#06B6D4" />
+          <circle cx="360" cy="150" r="7" fill="#38BDF8" />
+          <circle cx="520" cy="80" r="5" fill="#1D4ED8" />
+          <circle cx="640" cy="180" r="6" fill="#38BDF8" />
+          <circle cx="140" cy="280" r="5" fill="#38BDF8" />
+          <circle cx="280" cy="340" r="7" fill="#06B6D4" />
+          <circle cx="420" cy="260" r="6" fill="#38BDF8" />
+          <circle cx="580" cy="360" r="5" fill="#1D4ED8" />
+        </svg>
+
+        <!-- Cyber Server Room Graphic Atmosphere Overlay -->
+        <div class="hero-tech-pattern"></div>
+      </div>
+
+      <div class="hero-content">
+        <!-- Subtitle -->
+        <div class="hero-badge">
+          <i class="fa-solid fa-shield-halved"></i>
+          <span class="hero-subtitle">ESTUDIANTE DE INGENIERÍA INFORMÁTICA</span>
+        </div>
+
+        <!-- Main Title (Montserrat 900) -->
+        <h1 class="hero-title">
+          <span class="hero-name-first">JACK BRADLY</span>
+          <span class="hero-name-last">URCUHUARANGA</span>
+        </h1>
+
+        <!-- Typing Effect -->
+        <div class="hero-typing-box">
+          <span class="typing-prefix">&gt; </span>
+          <span class="typing-text" id="typing-text">Software Developer</span>
+          <span class="typing-cursor">_</span>
+        </div>
+
+        <!-- Description -->
+        <p class="hero-description">
+          Desarrollador y estudiante de Ingeniería Informática apasionado por la tecnología y el desarrollo de software.
+        </p>
+
+        <!-- CTA Buttons -->
+        <div class="hero-actions">
+          <a href="#experiencia" class="btn btn-primary">
+            <span>VER MI EXPERIENCIA</span>
+            <i class="fa-solid fa-arrow-down"></i>
+          </a>
+          <a href="#contacto" class="btn btn-secondary">
+            <span>CONTACTAR</span>
+            <i class="fa-solid fa-paper-plane"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ==================== 18. SECCIÓN "SOBRE MÍ" ==================== -->
+    <section class="section-container" id="sobre-mi">
+      <div class="section-heading">
+        <h2 class="section-title">SOBRE MÍ</h2>
+        <div class="title-accent-line"></div>
+      </div>
+
+      <div class="about-wrapper">
+        <div class="about-text-card">
+          <p class="about-paragraph">
+            Soy <strong>Jack Bradly Urcuhuaranga</strong>, estudiante de <strong>Ingeniería Informática</strong> en la <strong>Pontificia Universidad Católica del Perú (PUCP)</strong>.
+          </p>
+          <p class="about-paragraph">
+            Me interesa el desarrollo de software y la creación de soluciones tecnológicas trabajando de manera colaborativa en proyectos.
+          </p>
+        </div>
+
+        <!-- Highlight Metric Cards -->
+        <div class="about-highlights-grid">
+          <div class="highlight-card">
+            <div class="highlight-icon"><i class="fa-solid fa-cake-candles"></i></div>
+            <div class="highlight-value">20 AÑOS</div>
+            <div class="highlight-label">Edad actual</div>
+          </div>
+
+          <div class="highlight-card">
+            <div class="highlight-icon"><i class="fa-solid fa-building-columns"></i></div>
+            <div class="highlight-value">PUCP</div>
+            <div class="highlight-label">Pontificia Universidad Católica del Perú</div>
+          </div>
+
+          <div class="highlight-card">
+            <div class="highlight-icon"><i class="fa-solid fa-laptop-code"></i></div>
+            <div class="highlight-value">INGENIERÍA INFORMÁTICA</div>
+            <div class="highlight-label">Carrera profesional</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ==================== 19. SECCIÓN EDUCACIÓN ==================== -->
+    <section class="section-container" id="educacion">
+      <div class="section-heading">
+        <h2 class="section-title">EDUCACIÓN</h2>
+        <div class="title-accent-line"></div>
+      </div>
+
+      <!-- Technological Timeline -->
+      <div class="tech-timeline">
+        
+        <!-- Step 1: Colegio Mi Perú -->
+        <div class="timeline-step">
+          <div class="timeline-marker">
+            <i class="fa-solid fa-school"></i>
+          </div>
+          <div class="timeline-card">
+            <span class="timeline-tag">EDUCACIÓN BÁSICA REGULAR</span>
+            <h3 class="timeline-institution">Colegio Mi Perú</h3>
+            <p class="timeline-detail">Formación escolar con énfasis en valores, matemática y superación académica continua.</p>
+          </div>
+        </div>
+
+        <div class="timeline-connector">
+          <div class="connector-line"></div>
+          <i class="fa-solid fa-chevron-down connector-arrow"></i>
+        </div>
+
+        <!-- Step 2: PUCP -->
+        <div class="timeline-step">
+          <div class="timeline-marker active">
+            <i class="fa-solid fa-building-columns"></i>
+          </div>
+          <div class="timeline-card active">
+            <span class="timeline-tag">EDUCACIÓN SUPERIOR UNIVERSITARIA</span>
+            <h3 class="timeline-institution">Pontificia Universidad Católica del Perú</h3>
+            <p class="timeline-detail">Formación académica de excelencia y desarrollo de proyectos tecnológicos de impacto.</p>
+          </div>
+        </div>
+
+        <div class="timeline-connector">
+          <div class="connector-line"></div>
+          <i class="fa-solid fa-chevron-down connector-arrow"></i>
+        </div>
+
+        <!-- Step 3: Ingeniería Informática -->
+        <div class="timeline-step">
+          <div class="timeline-marker active">
+            <i class="fa-solid fa-graduation-cap"></i>
+          </div>
+          <div class="timeline-card active">
+            <span class="timeline-tag">ESPECIALIDAD &amp; PREGRADO</span>
+            <h3 class="timeline-institution">Ingeniería Informática</h3>
+            <p class="timeline-detail">Ciencias de la computación, arquitectura de software, algoritmos avanzados, bases de datos y desarrollo de sistemas.</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ==================== 20. SECCIÓN TECNOLOGÍAS (PROGRAMACIÓN) ==================== -->
+    <section class="section-container" id="tecnologias">
+      <div class="section-heading">
+        <h2 class="section-title">TECNOLOGÍAS</h2>
+        <div class="title-accent-line"></div>
+      </div>
+
+      <!-- 4 Language Cards with Cyan Border, Dark BG, Hover Glow & Initials -->
+      <div class="tech-cards-grid">
+        
+        <!-- C -->
+        <div class="tech-card">
+          <div class="tech-card-header">
+            <div class="tech-badge-symbol">C</div>
+          </div>
+          <h3 class="tech-name">C</h3>
+          <span class="tech-label">PROGRAMMING</span>
+          <p class="tech-desc">Sistemas, punteros, estructuras de datos y gestión de memoria a bajo nivel.</p>
+        </div>
+
+        <!-- C++ -->
+        <div class="tech-card">
+          <div class="tech-card-header">
+            <div class="tech-badge-symbol">C++</div>
+          </div>
+          <h3 class="tech-name">C++</h3>
+          <span class="tech-label">PROGRAMMING</span>
+          <p class="tech-desc">Programación orientada a objetos, templates, optimización y alto rendimiento.</p>
+        </div>
+
+        <!-- C# -->
+        <div class="tech-card">
+          <div class="tech-card-header">
+            <div class="tech-badge-symbol">C#</div>
+          </div>
+          <h3 class="tech-name">C#</h3>
+          <span class="tech-label">PROGRAMMING</span>
+          <p class="tech-desc">Desarrollo de lógica para software y videojuegos, .NET y arquitectura modular.</p>
+        </div>
+
+        <!-- Python -->
+        <div class="tech-card">
+          <div class="tech-card-header">
+            <div class="tech-badge-symbol"><i class="fa-brands fa-python"></i></div>
+          </div>
+          <h3 class="tech-name">PYTHON</h3>
+          <span class="tech-label">PROGRAMMING</span>
+          <p class="tech-desc">Automatización de tareas, prototipado rápido, scripts algorítmicos y análisis de datos.</p>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ==================== 21. SECCIÓN EXPERIENCIA ==================== -->
+    <section class="section-container" id="experiencia">
+      <div class="section-heading">
+        <h2 class="section-title">EXPERIENCIA</h2>
+        <div class="title-accent-line"></div>
+      </div>
+
+      <div class="experience-container">
+        
+        <!-- Main Experience Card: PachinkoStudio -->
+        <div class="experience-card">
+          <div class="exp-badge"><i class="fa-solid fa-gamepad"></i> ESTUDIO DE DESARROLLO</div>
+          <h3 class="exp-company">PACHINKOSTUDIO</h3>
+          <div class="exp-role">Programador Principal</div>
+          <p class="exp-desc">
+            Formo parte de <strong>PachinkoStudio</strong> como <strong>programador principal</strong>, trabajando junto a un equipo en el desarrollo de proyectos de software.
+          </p>
+        </div>
+
+        <!-- Featured Collaborative Project: Sturoom -->
+        <div class="project-featured-card">
+          <div class="project-tag"><i class="fa-solid fa-people-group"></i> PROYECTO COLABORATIVO</div>
+          <h3 class="project-title">STUROOM</h3>
+          <div class="project-subtitle">Solución Tecnológica para Estudiantes</div>
+          <p class="project-description">
+            Proyecto desarrollado junto a un grupo de trabajo, orientado a crear una solución tecnológica relacionada con la <strong>búsqueda de habitaciones para estudiantes</strong>.
+          </p>
+          <div class="project-meta-pills">
+            <span class="pill"><i class="fa-solid fa-code"></i> Arquitectura de Software</span>
+            <span class="pill"><i class="fa-solid fa-users"></i> Trabajo en Equipo</span>
+            <span class="pill"><i class="fa-solid fa-house-user"></i> Alojamiento Estudiantil</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ==================== 22. SECCIÓN SKILLS ==================== -->
+    <section class="section-container" id="skills">
+      <div class="section-heading">
+        <h2 class="section-title">SKILLS</h2>
+        <div class="title-accent-line"></div>
+      </div>
+
+      <!-- 3 Numbered Skill Cards (01, 02, 03) -->
+      <div class="skills-grid">
+        
+        <!-- 01 Proactivo -->
+        <div class="skill-card">
+          <div class="skill-number">01</div>
+          <div class="skill-icon-box"><i class="fa-solid fa-rocket"></i></div>
+          <h3 class="skill-title">PROACTIVO</h3>
+          <p class="skill-desc">Iniciativa constante en la resolución de problemas y aporte activo en cada etapa del desarrollo.</p>
+        </div>
+
+        <!-- 02 Autodidacta -->
+        <div class="skill-card">
+          <div class="skill-number">02</div>
+          <div class="skill-icon-box"><i class="fa-solid fa-brain"></i></div>
+          <h3 class="skill-title">AUTODIDACTA</h3>
+          <p class="skill-desc">Capacidad continua para asimilar nuevas tecnologías, frameworks y estándares de forma autónoma.</p>
+        </div>
+
+        <!-- 03 Responsable -->
+        <div class="skill-card">
+          <div class="skill-number">03</div>
+          <div class="skill-icon-box"><i class="fa-solid fa-shield-check"></i></div>
+          <h3 class="skill-title">RESPONSABLE</h3>
+          <p class="skill-desc">Compromiso riguroso con los objetivos de equipo, la calidad del código y el cumplimiento de plazos.</p>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ==================== 23. SECCIÓN VOLUNTARIADO ==================== -->
+    <section class="section-container" id="voluntariado">
+      <div class="section-heading">
+        <h2 class="section-title">VOLUNTARIADO</h2>
+        <div class="title-accent-line"></div>
+      </div>
+
+      <!-- Volunteering Card with Distinct Social Styling -->
+      <div class="volunteer-box">
+        <div class="volunteer-icon-wrapper">
+          <i class="fa-solid fa-hand-holding-heart"></i>
+        </div>
+        <div class="volunteer-content">
+          <span class="volunteer-badge-label">PARTICIPACIÓN SOCIAL</span>
+          <h3 class="volunteer-org-title">PERÚ TE QUIERO LIMPIO</h3>
+          <div class="volunteer-type">ONG</div>
+          <p class="volunteer-text">
+            Participación activa en actividades de impacto social, recuperación de espacios comunitarios y concientización ambiental junto a la ONG <strong>Perú te quiero Limpio</strong>.
+          </p>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ==================== 24. SECCIÓN PARTICIPACIONES ==================== -->
+    <section class="section-container" id="participaciones">
+      <div class="section-heading">
+        <h2 class="section-title">PARTICIPACIONES</h2>
+        <div class="title-accent-line"></div>
+      </div>
+
+      <!-- University Participations Cards -->
+      <div class="participations-grid">
+        
+        <!-- GDP Academy -->
+        <div class="participation-card">
+          <div class="part-icon"><i class="fa-solid fa-chalkboard-user"></i></div>
+          <h3 class="part-title">GDP ACADEMY</h3>
+          <p class="part-desc">Participación en actividades relacionadas con formación y desarrollo universitario.</p>
+        </div>
+
+        <!-- Laboratorio de Emprendimiento -->
+        <div class="participation-card">
+          <div class="part-icon"><i class="fa-solid fa-lightbulb"></i></div>
+          <h3 class="part-title">LABORATORIO DE EMPRENDIMIENTO</h3>
+          <p class="part-desc">Participación en actividades relacionadas con emprendimiento e innovación.</p>
+        </div>
+
+        <!-- ReInventa -->
+        <div class="participation-card">
+          <div class="part-icon"><i class="fa-solid fa-arrows-rotate"></i></div>
+          <h3 class="part-title">REINVENTA</h3>
+          <p class="part-desc">Participación en el programa y actividades de transformación e innovación ReInventa.</p>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ==================== 25. SECCIÓN CONTACTO (CONECTEMOS) ==================== -->
+    <section class="section-container" id="contacto">
+      <div class="section-heading">
+        <h2 class="section-title">CONECTEMOS</h2>
+        <div class="title-accent-line"></div>
+      </div>
+
+      <div class="contact-box">
+        <p class="contact-intro">
+          ¿Quieres conocer más sobre mis proyectos, experiencia o trabajo?<br>
+          <strong>Encuéntrame en mis redes sociales.</strong>
+        </p>
+
+        <!-- Social Buttons (Instagram, Facebook, LinkedIn) -->
+        <div class="social-buttons-grid">
+          <!-- Instagram -->
+          <a href="#" id="link-instagram" class="social-btn instagram-btn" target="_blank" rel="noopener noreferrer">
+            <i class="fa-brands fa-instagram"></i>
+            <span>Instagram</span>
+          </a>
+
+          <!-- Facebook -->
+          <a href="#" id="link-facebook" class="social-btn facebook-btn" target="_blank" rel="noopener noreferrer">
+            <i class="fa-brands fa-facebook-f"></i>
+            <span>Facebook</span>
+          </a>
+
+          <!-- LinkedIn -->
+          <a href="#" id="link-linkedin" class="social-btn linkedin-btn" target="_blank" rel="noopener noreferrer">
+            <i class="fa-brands fa-linkedin-in"></i>
+            <span>LinkedIn</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+
+  <!-- ==================== 26. FOOTER ==================== -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-title">JACK BRADLY URCUHUARANGA</div>
+      <div class="footer-subtitle">Ingeniería Informática | PUCP</div>
+      <div class="footer-copyright">&copy; 2026 Jack Bradly Urcuhuaranga</div>
+    </div>
+  </footer>
+
+  <!-- Vanilla JavaScript -->
+  <script src="js/script.js"></script>
+</body>
+</html>
